@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: white;
+  padding:32px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px black;
+  max-width: 400px;
+  width: 100%;
+}
+
+#options {
+  list-style: none;
+  padding: 0;
+}
+
+#options li {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 8px 16px;
+  background-color:skyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:blue;
+}
+
+.hidden {
+  display: none;
+}
